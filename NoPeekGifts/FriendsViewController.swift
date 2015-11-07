@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  NoPeekGifts
 //
 //  Created by Mark Gruetzner on 10/31/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class FriendsViewController: UIViewController {
 
    override func viewDidLoad() {
       super.viewDidLoad()

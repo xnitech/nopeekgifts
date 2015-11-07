@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		2D40C8551BE55C7800A36465 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D40C8541BE55C7800A36465 /* AppDelegate.swift */; };
-		2D40C8571BE55C7800A36465 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D40C8561BE55C7800A36465 /* FirstViewController.swift */; };
-		2D40C8591BE55C7800A36465 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D40C8581BE55C7800A36465 /* SecondViewController.swift */; };
+		2D40C8571BE55C7800A36465 /* GiftsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D40C8561BE55C7800A36465 /* GiftsViewController.swift */; };
+		2D40C8591BE55C7800A36465 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D40C8581BE55C7800A36465 /* FriendsViewController.swift */; };
 		2D40C85C1BE55C7800A36465 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D40C85A1BE55C7800A36465 /* Main.storyboard */; };
 		2D40C85E1BE55C7800A36465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D40C85D1BE55C7800A36465 /* Assets.xcassets */; };
 		2D40C8611BE55C7800A36465 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D40C85F1BE55C7800A36465 /* LaunchScreen.storyboard */; };
 		2D40C86C1BE55C7800A36465 /* NoPeekGiftsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D40C86B1BE55C7800A36465 /* NoPeekGiftsTests.swift */; };
 		2D40C8771BE55C7800A36465 /* NoPeekGiftsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D40C8761BE55C7800A36465 /* NoPeekGiftsUITests.swift */; };
+		2D85FE7F1BEE7B99005E5D03 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D85FE7E1BEE7B99005E5D03 /* SampleData.swift */; };
+		2D85FE811BEE97E7005E5D03 /* GiftDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D85FE801BEE97E7005E5D03 /* GiftDetailsViewController.swift */; };
+		2DB46AE11BEE636800C538C1 /* GiftManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB46AE01BEE636800C538C1 /* GiftManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +40,8 @@
 /* Begin PBXFileReference section */
 		2D40C8511BE55C7800A36465 /* NoPeekGifts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoPeekGifts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D40C8541BE55C7800A36465 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2D40C8561BE55C7800A36465 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		2D40C8581BE55C7800A36465 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2D40C8561BE55C7800A36465 /* GiftsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftsViewController.swift; sourceTree = "<group>"; };
+		2D40C8581BE55C7800A36465 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		2D40C85B1BE55C7800A36465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D40C85D1BE55C7800A36465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D40C8601BE55C7800A36465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		2D40C8721BE55C7800A36465 /* NoPeekGiftsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoPeekGiftsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D40C8761BE55C7800A36465 /* NoPeekGiftsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoPeekGiftsUITests.swift; sourceTree = "<group>"; };
 		2D40C8781BE55C7800A36465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D85FE7E1BEE7B99005E5D03 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		2D85FE801BEE97E7005E5D03 /* GiftDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftDetailsViewController.swift; sourceTree = "<group>"; };
+		2DB46AE01BEE636800C538C1 /* GiftManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				2D40C8541BE55C7800A36465 /* AppDelegate.swift */,
-				2D40C8561BE55C7800A36465 /* FirstViewController.swift */,
-				2D40C8581BE55C7800A36465 /* SecondViewController.swift */,
+				2D40C8561BE55C7800A36465 /* GiftsViewController.swift */,
+				2D40C8581BE55C7800A36465 /* FriendsViewController.swift */,
 				2D40C85A1BE55C7800A36465 /* Main.storyboard */,
+				2DB46AE01BEE636800C538C1 /* GiftManager.swift */,
 				2D40C85D1BE55C7800A36465 /* Assets.xcassets */,
 				2D40C85F1BE55C7800A36465 /* LaunchScreen.storyboard */,
 				2D40C8621BE55C7800A36465 /* Info.plist */,
+				2D85FE7E1BEE7B99005E5D03 /* SampleData.swift */,
+				2D85FE801BEE97E7005E5D03 /* GiftDetailsViewController.swift */,
 			);
 			path = NoPeekGifts;
 			sourceTree = "<group>";
@@ -259,9 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D40C8591BE55C7800A36465 /* SecondViewController.swift in Sources */,
+				2D40C8591BE55C7800A36465 /* FriendsViewController.swift in Sources */,
+				2DB46AE11BEE636800C538C1 /* GiftManager.swift in Sources */,
 				2D40C8551BE55C7800A36465 /* AppDelegate.swift in Sources */,
-				2D40C8571BE55C7800A36465 /* FirstViewController.swift in Sources */,
+				2D85FE7F1BEE7B99005E5D03 /* SampleData.swift in Sources */,
+				2D40C8571BE55C7800A36465 /* GiftsViewController.swift in Sources */,
+				2D85FE811BEE97E7005E5D03 /* GiftDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +498,7 @@
 				2D40C87D1BE55C7800A36465 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D40C87E1BE55C7800A36465 /* Build configuration list for PBXNativeTarget "NoPeekGiftsTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +507,7 @@
 				2D40C8801BE55C7800A36465 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D40C8811BE55C7800A36465 /* Build configuration list for PBXNativeTarget "NoPeekGiftsUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +516,7 @@
 				2D40C8831BE55C7800A36465 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
